@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <title>PlanUrTrip-FlightBooking</title>
+
+        <link rel="icon" type="images/x-icon" href="IMG/PlanUrTrip.jpeg" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" 
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" 
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    </head>
+
+    <body style="color: brown;">
+
+            <h3 align="center"><i class="fa-solid fa-plane"></i>&nbsp;Explore your dream destination</h3>           
+            <hr>   
+            <br><br>         
+
+            <form method="get">     <!--Used Get method-->
+                
+               <table width="100%" align="center">
+                <tr align="center">
+                    <td>
+                        <input type="radio" name="rdtravel" value="RoundTrip" checked>Round-Trip
+                        <input type="radio" name="rdtravel" value="Oneway">One-way
+                        <input type="radio" name="rdtravel" value="MultiCity">Multi-City
+                        &nbsp;&nbsp;
+                        Class
+                        <select name="drpclass" id="">
+                            <option value="op1" selected> Economy</option>
+                            <option value="op2"> Premium Economy</option>
+                            <option value="op3"> Business</option>
+                            <option value="op4"> First class</option>                            
+                        </select>
+                        &nbsp;&nbsp;
+                        Adult
+                        <select name="drpadult" id="">
+                            <option value="op0"> 0</option>
+                            <option value="op1" selected>1</option>
+                            <option value="op2">2</option>
+                            <option value="op3">3</option>                            
+                            <option value="op4">4</option>                            
+                        </select>
+
+                        &nbsp;&nbsp;
+                        Child
+                        <select name="drpchild" id="">
+                            <option value="cop0" selected> 0</option>
+                            <option value="cop1" >1</option>
+                            <option value="cop2">2</option>
+                            <option value="cop3">3</option>                            
+                            <option value="cop4">4</option>                            
+                        </select>                        
+                    </td>
+                </tr>
+               </table>
+               <br><br>
+               <table width="100%" align="center">
+                <tr align="center">                    
+                    <td>
+                        Departure &nbsp;<i class="fa-solid fa-plane-departure"></i>
+                        <select name="drpdeparture" id="">
+                            <option value="dp1" selected>MAS-Anna International Airport-Chennai-India</option>
+                            <option value="dp2" >DEL-Delhi International Airport-NewDelhi-India</option>
+                            <option value="dp3">QAR-Hamad International Airport-Doha-Qatar</option>
+                            <option value="dp4">JFK-Jhon F KENNEDY International Airport-Newyork-USA</option>                            
+                            <option value="dp5">DXB-Dubai International Airport-Dubai-UAE</option>                            
+                        </select>   
+                        <input type="date" name="arrivaldate"></td> 
+                    </td>
+                </tr>
+                <tr align="center">
+                    <td><i class="fa-solid fa-arrow-up">&nbsp;<i class="fa-solid fa-arrow-down"></i></td>
+                </tr>
+                <tr align="center">                    
+                    <td>
+                        &nbsp;&nbsp;&nbsp;&nbsp;Arrival &nbsp;<i class="fa-solid fa-plane-arrival"></i>
+                        <select name="drparrival" id="">
+                            <option value="ar1" selected>MAS-Anna International Airport-Chennai-India</option>
+                            <option value="ar2" >DEL-Delhi International Airport-NewDelhi-India</option>
+                            <option value="ar3">QAR-Hamad International Airport-Doha-Qatar</option>
+                            <option value="ar4">JFK-Jhon F KENNEDY International Airport-Newyork-USA</option>                            
+                            <option value="ar5">DXB-Dubai International Airport-Dubai-UAE</option>                            
+                        </select>   
+                        <input type="date" name="arrivaldate"></td> 
+                    </td>
+                </tr>
+                <tr>
+                    <td><br></td>
+                </tr>                  
+                <tr align="center">
+                    <td><input type="submit" value="Book Flight"></td>
+                </tr>  
+                <tr>
+                    <td><br></td>
+                </tr>        
+                <tr>
+                    <td align="center">
+                        <a href="Home.html" target="targetwindow"> Back to Home</a>
+                    </td>
+                </tr>     
+               </table>
+            </form>
+    </body>
+</html>
+<head>
+    
+</head>

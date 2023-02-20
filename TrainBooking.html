@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <title>PlanUrTrip-TrainBooking</title>
+
+        <link rel="icon" type="images/x-icon" href="IMG/PlanUrTrip.jpeg" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" 
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" 
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    </head>
+
+    <body style="color: brown;">
+
+            <h3 align="center"><i class="fa-solid fa-train-subway"></i>&nbsp;Find Trains</h3>           
+            <hr>   
+            <br><br>         
+
+            <form method="get">     <!--Used Get method-->
+               
+                <table width="100%" align="center">
+                    <tr align="center">                    
+                        <td>
+                            From &nbsp;
+                            <select name="drpFrom" id="">
+                                <option value="TBM" >Tambaram</option>
+                                <option value="CHN" >Chengalpattu</option>
+                                <option value="DGL">Dindigul</option>
+                                <option value="SL">Salem</option>                            
+                                <option value="MAS" selected>Chennai Central</option>                            
+                            </select>   
+                            &nbsp;&nbsp;&nbsp;&nbsp;To &nbsp;
+                            <select name="drTo" id="">
+                                <option value="TBM" >Tambaram</option>
+                                <option value="CHN" >Chengalpattu</option>
+                                <option value="DGL">Dindigul</option>
+                                <option value="SL"selected>Salem</option>                            
+                                <option value="MAS" >Chennai Central</option>                        
+                            </select>
+                            &nbsp;&nbsp;   
+                            <input type="date" name="Departuredate"></td> 
+                        </td> 
+                    </tr>
+                    
+                    <tr>
+                        <td><br></td>
+                    </tr>
+                    <tr align="center">  
+                        <td>
+                            Class
+                            <select name="drpclass" id="">
+                                <option value="op1" selected>Sleeper</option>
+                                <option value="op2">AC-2Tier</option>
+                                <option value="op3">AC-3Tier</option>
+                                <option value="op4">AC-Chaircar</option>                            
+                            </select>                
+                            &nbsp;&nbsp;
+                            Quota
+                            <select name="drpquota" id="">
+                                <option value="op1" selected>General</option>
+                                <option value="op2">Tatkal</option>
+                                <option value="op3">Ladies</option>
+                                <option value="op4">SeniorCitizens</option>                            
+                            </select>                
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><br></td>
+                    </tr> 
+                    <tr align="center">
+                        <td><input type="submit" value="Find Trains"></td>
+                    </tr>  
+                    <tr>
+                        <td><br></td>
+                    </tr>        
+                    <tr>
+                        <td align="center">
+                            <a href="Home.html" target="targetwindow"> Back to Home</a>
+                        </td>
+                    </tr>     
+               </table>
+            </form>
+    </body>
+</html>
+<head>
+    
+</head>
